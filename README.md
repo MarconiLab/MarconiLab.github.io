@@ -43,14 +43,14 @@ If the first part of the repository doesn’t exactly match your username, it wo
 
 Go to the folder where you want to store your project, and clone the new repository:
 
-~ $ git clone https://github.com/username/username.github.io
+	~$git clone https://github.com/username/username.github.io
 
 ## 3) Hello World
 
 Enter the project folder and add an index.html file:
 
-~ $ cd username.github.io
-~ $ echo "Hello World" > index.html
+	~ $ cd username.github.io
+	~ $ echo "Hello World" > index.html
 
 ## 4) Push it
 
