@@ -29,7 +29,7 @@ http://community.thingspeak.com/forum/thingspeak-api/daily-average1440-parameter
 
 The charting library is called HighStock. It is awesome! HighSoft, the owners say, "Do you want to use Highstock for a personal or non-profit project? Then you can use Highchcarts for free under the Creative Commons Attribution-NonCommercial 3.0 License. "
 
-# How to create a Github PAge
+# How to create a Github Page
 
 Source: https://pages.github.com/
 
