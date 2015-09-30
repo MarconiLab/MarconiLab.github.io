@@ -88,8 +88,8 @@ $(document).ready(function()
    var fieldList= sentFieldList;
    var channelIndex = sentChannelIndex;
    // get the Channel data with a webservice call
- 	$.getJSON('http://84.88.85.11:3000/channels/'+channelNumber+'/feed.json?callback=?&amp;offset=0&amp;results=2500;key='+key, function(data) 
- 	//$.getJSON('https://www.thingspeak.com/channels/'+channelNumber+'/feed.json?callback=?&amp;offset=0&amp;results=2500;key='+key, function(data) 
+ 	//$.getJSON('http://84.88.85.11:3000/channels/'+channelNumber+'/feed.json?callback=?&amp;offset=0&amp;results=2500;key='+key, function(data) 
+ 	$.getJSON('https://www.thingspeak.com/channels/'+channelNumber+'/feed.json?callback=?&amp;offset=0&amp;results=2500;key='+key, function(data) 
    {
 	   // if no access
 	   if (data == '-1') {
@@ -145,8 +145,8 @@ $(document).ready(function()
                (function(channelIndex)
                {
                 // get the data with a webservice call
-                $.getJSON('http://http://84.88.85.11:3000/channels/'+channelKeys[channelIndex].channelNumber+'/feed/last.json?callback=?&amp;offset=0&amp;location=false;key='+channelKeys[channelIndex].key, function(data) 
-                //$.getJSON('https://www.thingspeak.com/channels/'+channelKeys[channelIndex].channelNumber+'/feed/last.json?callback=?&amp;offset=0&amp;location=false;key='+channelKeys[channelIndex].key, function(data) 
+                //$.getJSON('http://http://84.88.85.11:3000/channels/'+channelKeys[channelIndex].channelNumber+'/feed/last.json?callback=?&amp;offset=0&amp;location=false;key='+channelKeys[channelIndex].key, function(data) 
+                $.getJSON('https://www.thingspeak.com/channels/'+channelKeys[channelIndex].channelNumber+'/feed/last.json?callback=?&amp;offset=0&amp;location=false;key='+channelKeys[channelIndex].key, function(data) 
                 { 
                   for (var fieldIndex=0; fieldIndex<channelKeys[channelIndex].fieldList.length; fieldIndex++)
                   {
